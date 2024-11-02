@@ -1,0 +1,41 @@
+*{background-color: rgb(229, 191, 191);}
+form{
+    
+  
+    margin-top: 5rem;
+    gap: .4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+flex-direction: column;
+
+}
+input{
+    color: rgb(53, 49, 49);
+    background-color: white;
+}
+button{
+    color: rgb(50, 50, 50);
+    background-color: white;
+    
+}
+form*{
+    width: 60%;
+
+}
+.update{
+    display: none;
+}
+
+ .up,.del{
+   background-color: red; 
+   color: white;
+   cursor: pointer;
+
+
+ }
+ 
+ td,th{
+    border: 2px,solid black;
+ }
